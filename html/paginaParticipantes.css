@@ -78,7 +78,12 @@ body {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-left: 5px;
+
+}
+
+.logo-rodape {
+    width: 80px;
+    padding: 6px;
 }
 
 .rodape-centro {
