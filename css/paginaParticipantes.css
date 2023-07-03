@@ -72,6 +72,13 @@ body main {
     cursor: pointer;
 }
 
+.titulo-participantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
 .fileira1 {
     display: flex;
     justify-content: space-evenly;
@@ -81,6 +88,7 @@ body main {
 .fileira2 {
     display: flex;
     justify-content: space-evenly;
+    margin: 100px 0 100px 0;
 }
 
 .foto-renato {
