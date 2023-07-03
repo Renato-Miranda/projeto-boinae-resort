@@ -65,6 +65,29 @@ body {
     cursor: pointer;
 }
 
+.fileira1 {
+    display: flex;
+}
+
+.fileira2 {
+    display: flex;
+}
+
+.foto-renato {
+    width: 193px;
+}
+
+.foto-carol {
+    width: 193px;
+}
+
+.foto-josh {
+    width: 193px;
+}
+
+.foto-fran {
+    width: 193px;
+}
 
 .rodape {
     font-family: 'Englebert', sans-serif;
