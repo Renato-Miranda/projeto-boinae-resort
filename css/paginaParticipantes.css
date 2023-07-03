@@ -74,10 +74,13 @@ body main {
 
 .fileira1 {
     display: flex;
+    justify-content: space-evenly;
+    margin: 100px 0 100px 0;
 }
 
 .fileira2 {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .foto-renato {
