@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     background-color: #9CA777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body main {
@@ -85,26 +86,28 @@ body main {
     margin: 100px 0 100px 0;
 }
 
+.erica {
+    text-align: center;
+    width: 265px;
+    height: 385px;
+    border-radius: 20px;
+    background: #D9D9D9;
+}
+
+.foto-erica {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+p {
+    margin: 20px 0 10px 0;
+}
+
 .fileira2 {
     display: flex;
     justify-content: space-evenly;
     margin: 100px 0 100px 0;
-}
-
-.foto-renato {
-    width: 193px;
-}
-
-.foto-carol {
-    width: 193px;
-}
-
-.foto-josh {
-    width: 193px;
-}
-
-.foto-fran {
-    width: 193px;
 }
 
 .rodape {
