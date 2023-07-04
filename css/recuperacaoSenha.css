@@ -80,6 +80,32 @@ body main {
     gap: 100px;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#email-recup-senha {
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 30px;
+    background: #F97B22;
+    color: #FFF;
+    font-size: 15px;
+    font-family: Englebert;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
 
 .rodape {
     font-family: 'Englebert', sans-serif;
