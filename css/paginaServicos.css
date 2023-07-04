@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    margin: 80px 150px 40px 150px;
+    border-bottom: solid;
+    font-family: 'Englebert', sans-serif;
+
+}
+
+.listaservico {
+    border: 2px solid #F97b22;
+    border-radius: 30px;
+    margin: 0px 150px 0px 150px;
+    background-color: #F97B22;
+    padding: 50px 100px 49px 100px;
+    font-size: 18px;
+    font-family: 'Englebert', sans-serif;
+
+}
+
