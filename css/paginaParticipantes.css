@@ -80,6 +80,11 @@ body main {
     margin-top: 50px;
 }
 
+h2 {
+    border-bottom: double;
+    margin: 0px 150px;
+}
+
 .fileira1 {
     display: flex;
     justify-content: space-evenly;
