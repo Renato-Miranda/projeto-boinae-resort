@@ -186,3 +186,39 @@ h2 {
     margin-right: 30px;
     align-items: center;
 }
+
+@media screen and (max-width: 1000px) {
+    .cabecalho {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .menu-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fileira1 {
+        flex-direction: column;
+    }
+
+    .fileira2 {
+        flex-direction: column;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-esquerdo {
+        flex-direction: column;
+        align-items: center;
+    }
+}
