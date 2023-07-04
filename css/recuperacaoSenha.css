@@ -73,12 +73,34 @@ body main {
     cursor: pointer;
 }
 
+.titulo-senha {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 30pt;
+}
+
+h2 {
+    border-bottom: double;
+    margin: 0px 150px;
+}
+
+.texto-senha {
+    font-size: 20pt;
+}
+
 .conteiner {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 100px;
 }
+
+
+
 
 form {
     display: flex;
