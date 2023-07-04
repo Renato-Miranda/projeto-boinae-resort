@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #9CA777;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body main {
+    flex: 1;
+}
+
+.cabecalho {
+    font-family: 'Englebert', sans-serif;
+    background-color: #FEE8B0;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    width: 80px;
+    padding: 6px;
+}
+
+.titulo-principal {
+    font-family: 'Kablammo', cursive;
+    display: inline;
+}
+
+.menu-lista {
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-evenly;
+    height: 25px;
+    margin-left: 5%;
+}
+
+.item-lista {
+    display: flex;
+    font-size: 25px;
+}
+
+.links {
+    text-decoration: none;
+    color: #333;
+}
+
+.icone-login {
+    height: 25px;
+    margin-right: 5px;
+
+}
+
+.btn-login {
+    display: flex;
+    padding: 5px;
+    width: 95px;
+    font-family: 'Englebert', sans-serif;
+    font-size: 25px;
+    border: solid #333 2px;
+    border-radius: 5px;
+    background-color: #F97B22;
+    align-items: center;
+    cursor: pointer;
+}
