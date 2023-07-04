@@ -17,3 +17,56 @@ h1 {
 
 }
 
+h2 {
+    text-align: center;
+    margin: 80px 150px 40px 150px;
+    border-bottom: solid;
+    font-family: 'Englebert', sans-serif;
+
+}
+
+.planos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Englebert', sans-serif;
+
+
+}
+
+.plano1 {
+    background-color: #F97B22;
+    width: 340px;
+    height: 574px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 200%;
+    padding: 0px 10px 0px 25px;
+    margin-left: 50px;
+    
+}
+
+.plano2 {
+    background-color: #F97B22;
+    width: 340px;
+    height: 574px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 200%;
+    padding: 0px 10px 0px 25px;
+    margin: 0px 25px 0px 25px;
+}
+
+.plano3 {
+    background-color: #F97B22;
+    width: 340px;
+    height: 574px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 200%;
+    padding: 0px 10px 0px 25px;
+    margin-right: 50px;
+}
+h3{
+    margin-top: 20px;
+}
