@@ -72,3 +72,35 @@ body main {
     align-items: center;
     cursor: pointer;
 }
+
+.rodape {
+    font-family: 'Englebert', sans-serif;
+    background-color: #FEE8B0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rodape-esquerdo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.logo-rodape {
+    width: 80px;
+    padding: 6px;
+}
+
+.rodape-centro {
+    display: flex;
+    align-items: center;
+}
+
+.rodape-direito {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    align-items: center;
+}
