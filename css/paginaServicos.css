@@ -51,14 +51,11 @@ body{
 }
 
 
-.tituloServiço{
-    align-items: center;
-    display: flex;
-    text-align: center;
-    /* margin: 80px 150px 40px 150px; */
-    border-bottom: solid;
+.tituloServico{
     font-family: 'Englebert', sans-serif;
-    margin: 0 auto;
+    border-bottom: solid;
+    text-align: center;
+    margin: 80px 150px 40px 150px;
 
 }
 
