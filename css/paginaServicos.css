@@ -1,8 +1,64 @@
-h1 {
+body{
+    background-color: #9CA777;
+}
+.cabecalho{
+    font-family: 'Englebert', sans-serif;
+    background-color: #FEE8B0;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    width: 80px;
+    padding: 6px;
+}
+.titulo-principal{
+    font-family: 'Kablammo', cursive;
+    display: inline;
+}
+.menu-lista{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    justify-content: space-evenly;
+    height: 25px;
+    margin-left: 5%;
+}
+.item-lista{
+    display: flex;
+    font-size: 25px;
+}
+.links{
+    text-decoration: none;
+    color: #333;
+}
+.icone-login{
+    height: 25px;
+    margin-right: 5px;
+
+}
+.btn-login{
+    display: flex;
+    padding:5px;
+    width: 95px;
+    font-family: 'Englebert', sans-serif;
+    font-size: 25px;
+    border: solid #333 2px;
+    border-radius: 5px;
+    background-color: #F97B22;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.tituloServiço{
+    align-items: center;
+    display: flex;
     text-align: center;
-    margin: 80px 150px 40px 150px;
+    /* margin: 80px 150px 40px 150px; */
     border-bottom: solid;
     font-family: 'Englebert', sans-serif;
+    margin: 0 auto;
 
 }
 
@@ -66,7 +122,40 @@ h2 {
     line-height: 200%;
     padding: 0px 10px 0px 25px;
     margin-right: 50px;
+    margin-bottom: 50px;
 }
 h3{
     margin-top: 20px;
+}
+
+.rodape {
+    font-family: 'Englebert', sans-serif;
+    background-color: #FEE8B0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rodape-esquerdo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+.logo-rodape {
+    width: 80px;
+    padding: 6px;
+}
+
+.rodape-centro {
+    display: flex;
+    align-items: center;
+}
+
+.rodape-direito {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    align-items: center;
 }
