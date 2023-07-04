@@ -94,10 +94,18 @@ body main {
     background: #D9D9D9;
 }
 
-.foto-erica {
+.fotos {
     display: flex;
     margin: 0 auto;
     margin-top: 5px;
+}
+
+.renato {
+    text-align: center;
+    width: 265px;
+    height: 385px;
+    border-radius: 20px;
+    background: #D9D9D9;
 }
 
 p {
