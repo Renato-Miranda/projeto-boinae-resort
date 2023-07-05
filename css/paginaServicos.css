@@ -1,22 +1,26 @@
-body{
+body {
     background-color: #9CA777;
 }
-.cabecalho{
+
+.cabecalho {
     font-family: 'Englebert', sans-serif;
     background-color: #FEE8B0;
     display: flex;
     align-items: center;
 }
-.logo{
+
+.logo {
     display: flex;
     width: 80px;
     padding: 6px;
 }
-.titulo-principal{
+
+.titulo-principal {
     font-family: 'Kablammo', cursive;
     display: inline;
 }
-.menu-lista{
+
+.menu-lista {
     display: flex;
     list-style: none;
     width: 60%;
@@ -24,22 +28,26 @@ body{
     height: 25px;
     margin-left: 5%;
 }
-.item-lista{
+
+.item-lista {
     display: flex;
     font-size: 25px;
 }
-.links{
+
+.links {
     text-decoration: none;
     color: #333;
 }
-.icone-login{
+
+.icone-login {
     height: 25px;
     margin-right: 5px;
 
 }
-.btn-login{
+
+.btn-login {
     display: flex;
-    padding:5px;
+    padding: 5px;
     width: 95px;
     font-family: 'Englebert', sans-serif;
     font-size: 25px;
@@ -51,7 +59,7 @@ body{
 }
 
 
-.tituloServico{
+.tituloServico {
     font-family: 'Englebert', sans-serif;
     border-bottom: solid;
     text-align: center;
@@ -96,7 +104,7 @@ h2 {
     line-height: 200%;
     padding: 0px 10px 0px 25px;
     margin-left: 50px;
-    
+
 }
 
 .plano2 {
@@ -121,7 +129,8 @@ h2 {
     margin-right: 50px;
     margin-bottom: 50px;
 }
-h3{
+
+h3 {
     margin-top: 20px;
 }
 
@@ -155,4 +164,38 @@ h3{
     flex-direction: column;
     margin-right: 30px;
     align-items: center;
+}
+
+@media screen and (max-width: 1120px) {
+    .cabecalho {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .menu-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .listaservico {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .planos {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-esquerdo {
+        flex-direction: column;
+        align-items: center;
+    }
 }
