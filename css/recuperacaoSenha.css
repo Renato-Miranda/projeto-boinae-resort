@@ -164,3 +164,50 @@ form {
     margin-right: 30px;
     align-items: center;
 }
+
+@media screen and (max-width: 1000px) {
+    .cabecalho {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .menu-lista {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteiner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #email-recup-senha {
+        width: 350px;
+    }
+
+    .foto-gato>img {
+        width: 500px;
+    }
+
+    .rodape {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rodape-esquerdo {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #email-recup-senha {
+        width: 250px;
+    }
+
+    .foto-gato>img {
+        width: 250px;
+    }
+
+}
