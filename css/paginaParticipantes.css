@@ -207,10 +207,12 @@ h2 {
 
     .fileira1 {
         flex-direction: column;
+        gap: 10px;
     }
 
     .fileira2 {
         flex-direction: column;
+        gap: 10px;
     }
 
     .rodape {
