@@ -1,20 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     background-color: #9CA777;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body main {
-    flex: 1;
 }
 
 .cabecalho {
@@ -73,91 +58,61 @@ body main {
     cursor: pointer;
 }
 
-.titulo-participantes {
+.btn-login:hover {
+    background-color:#9CA777;
+    color:#FEE8B0;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.boxLogin {
+    font-family: 'Englebert', sans-serif;
+    border-bottom: solid;
+    text-align: center;
+    margin: 80px 150px 40px 150px;
+
+}
+.formLogin {
+    border: 2px solid #F97b22;
+    border-radius: 30px;
+    margin: 100px 750px 100px 750px;
+    background-color: #F97B22;
+    padding: 50px 50px 49px 50px;
+    font-size: 18px;
+    font-family: 'Englebert', sans-serif;
+    flex-wrap: wrap;
     display: flex;
     flex-direction: column;
+}
+
+
+
+.submit {
+    padding: 5px;
+    width: 95px;
+    font-family: 'Englebert', sans-serif;
+    font-size: 25px;
+    border: solid #333 2px;
+    border-radius: 5px;
+    background-color: #9CA777;
     align-items: center;
-    margin-top: 150px;
-    font-size: 30pt;
+    cursor: pointer;
+    align-self:flex-start;
+    margin: 15px 0px 25px 0px;
+    color: #FEE8B0;
+}
+.submit:hover {
+    background-color: #FEE8B0;
+    color: #9CA777;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
-h2 {
-    border-bottom: double;
-    margin: 0px 150px;
+input {
+    border-radius: 5px;
+    border: solid #000000 1px;
+
 }
-
-.fileira1 {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 100px 0 100px 0;
-}
-
-.erica {
-    text-align: center;
-    width: 265px;
-    height: 385px;
-    border-radius: 20px;
-    background: #D9D9D9;
-}
-
-.fotos {
-    display: flex;
-    margin: 0 auto;
-    margin-top: 5px;
-}
-
-.renato {
-    text-align: center;
-    width: 265px;
-    height: 385px;
-    border-radius: 20px;
-    background: #D9D9D9;
-}
-
-.carol {
-    text-align: center;
-    width: 265px;
-    height: 385px;
-    border-radius: 20px;
-    background: #D9D9D9;
-}
-
-.josh {
-    text-align: center;
-    width: 265px;
-    height: 385px;
-    border-radius: 20px;
-    background: #D9D9D9;
-}
-
-.fran {
-    text-align: center;
-    width: 265px;
-    height: 385px;
-    border-radius: 20px;
-    background: #D9D9D9;
-}
-
-.nomes {
-    font-weight: bold;
-}
-
-.erica>p,
-.renato>p,
-.carol>p,
-.josh>p,
-.fran>p {
-    margin: 20px 0 10px 0;
-}
-
-.fileira2 {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 100px 0 100px 0;
-}
-
-
-
 .rodape {
     font-family: 'Englebert', sans-serif;
     background-color: #FEE8B0;
@@ -188,12 +143,9 @@ h2 {
     flex-direction: column;
     margin-right: 30px;
     align-items: center;
-<<<<<<< HEAD
-} 
-=======
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1120px) {
     .cabecalho {
         flex-direction: column;
         gap: 50px;
@@ -204,19 +156,15 @@ h2 {
         align-items: center;
     }
 
-    .conteiner {
+    .listaservico {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .fileira1 {
+    .planos {
         flex-direction: column;
-        gap: 10px;
-    }
-
-    .fileira2 {
-        flex-direction: column;
+        align-items: center;
         gap: 10px;
     }
 
@@ -230,4 +178,3 @@ h2 {
         align-items: center;
     }
 }
->>>>>>> 9a315880eb1baef06aee3ed625d07b62246b6901

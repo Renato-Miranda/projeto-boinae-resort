@@ -1,20 +1,5 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-
 body {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
     background-color: #9CA777;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body main {
-    flex: 1;
 }
 
 .cabecalho {
@@ -73,90 +58,81 @@ body main {
     cursor: pointer;
 }
 
-.titulo-participantes {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 150px;
-    font-size: 30pt;
+
+.tituloServico {
+    font-family: 'Englebert', sans-serif;
+    border-bottom: solid;
+    text-align: center;
+    margin: 80px 150px 40px 150px;
+
+}
+
+.listaservico {
+    border: 2px solid #F97b22;
+    border-radius: 30px;
+    margin: 0px 150px 0px 150px;
+    background-color: #F97B22;
+    padding: 50px 100px 49px 100px;
+    font-size: 18px;
+    font-family: 'Englebert', sans-serif;
+
 }
 
 h2 {
-    border-bottom: double;
-    margin: 0px 150px;
+    text-align: center;
+    margin: 80px 150px 40px 150px;
+    border-bottom: solid;
+    font-family: 'Englebert', sans-serif;
+
 }
 
-.fileira1 {
+.planos {
     display: flex;
-    justify-content: space-evenly;
-    margin: 100px 0 100px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Englebert', sans-serif;
+
+
 }
 
-.erica {
+.plano1 {
+    background-color: #F97B22;
+    width: 340px;
+    height: 574px;
+    border-radius: 30px;
     text-align: center;
-    width: 265px;
-    height: 385px;
-    border-radius: 20px;
-    background: #D9D9D9;
+    line-height: 200%;
+    padding: 0px 10px 0px 25px;
+    margin-left: 50px;
+
 }
 
-.fotos {
-    display: flex;
-    margin: 0 auto;
-    margin-top: 5px;
-}
-
-.renato {
+.plano2 {
+    background-color: #F97B22;
+    width: 340px;
+    height: 574px;
+    border-radius: 30px;
     text-align: center;
-    width: 265px;
-    height: 385px;
-    border-radius: 20px;
-    background: #D9D9D9;
+    line-height: 200%;
+    padding: 0px 10px 0px 25px;
+    margin: 0px 25px 0px 25px;
 }
 
-.carol {
+.plano3 {
+    background-color: #F97B22;
+    width: 340px;
+    height: 574px;
+    border-radius: 30px;
     text-align: center;
-    width: 265px;
-    height: 385px;
-    border-radius: 20px;
-    background: #D9D9D9;
+    line-height: 200%;
+    padding: 0px 10px 0px 25px;
+    margin-right: 50px;
+    margin-bottom: 50px;
 }
 
-.josh {
-    text-align: center;
-    width: 265px;
-    height: 385px;
-    border-radius: 20px;
-    background: #D9D9D9;
+h3 {
+    margin-top: 20px;
 }
-
-.fran {
-    text-align: center;
-    width: 265px;
-    height: 385px;
-    border-radius: 20px;
-    background: #D9D9D9;
-}
-
-.nomes {
-    font-weight: bold;
-}
-
-.erica>p,
-.renato>p,
-.carol>p,
-.josh>p,
-.fran>p {
-    margin: 20px 0 10px 0;
-}
-
-.fileira2 {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 100px 0 100px 0;
-}
-
-
 
 .rodape {
     font-family: 'Englebert', sans-serif;
@@ -188,12 +164,9 @@ h2 {
     flex-direction: column;
     margin-right: 30px;
     align-items: center;
-<<<<<<< HEAD
-} 
-=======
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1120px) {
     .cabecalho {
         flex-direction: column;
         gap: 50px;
@@ -204,19 +177,15 @@ h2 {
         align-items: center;
     }
 
-    .conteiner {
+    .listaservico {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .fileira1 {
+    .planos {
         flex-direction: column;
-        gap: 10px;
-    }
-
-    .fileira2 {
-        flex-direction: column;
+        align-items: center;
         gap: 10px;
     }
 
@@ -230,4 +199,3 @@ h2 {
         align-items: center;
     }
 }
->>>>>>> 9a315880eb1baef06aee3ed625d07b62246b6901
