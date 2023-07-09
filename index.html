@@ -15,9 +15,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
     
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
     <title>Boinae Resort</title>
+
+    
 </head>
-<body>
+
+<main>
     <header class="cabecalho">
         <img src="./imagens/18292989101670740228 1.svg" alt="icone da logo" class="logo">
         <h1 class="titulo-principal">Boinae Resort</h1>
@@ -28,5 +35,70 @@
             </ul>
             <button class="btn-login"><img src="./imagens/Vector.svg" alt="Login" class="icone-login">Login</button>
     </header>
+    <section class="carousel-container">
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./imagens/pexels-mustafa-ezz-979503.jpg" class="d-block w-100" id="carousel-item" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/pexels-edgar-daniel-hernández-cervantes-3628100.jpg" class="d-block w-100" id="carousel-item" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./imagens/pexels-pixabay-63853.jpg" class="d-block w-100" id="carousel-item" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    </section>
+    <section class="container">
+        <p class="container-texto">
+            O serviço de assinaturas oferecido pelo Boinae Resort propõe proporcionar uma experiência
+            de hospedagem e cuidados de alta qualidade para os animais de estimação dos clientes.
+            Os planos variados visam atender às diferentes necessidades e preferências dos donos
+            , oferecendo desde hospedagem diária até serviços personalizados, como   atendimento 
+            veterinário avançado, treinamento individualizado, entre outros. O objetivo é garantir
+            o bem-estar e a satisfação tanto dos animais como de seus donos, proporcionando um
+            ambiente seguro, confortável e divertido durante o período de assinatura.</p>
+    </section>
+    <section class="imagem-container">
+
+        <img src="./imagens/petinhos.png" alt="" class="img-pets">
+    </section>
+
+    <footer class="rodape">
+        <div class="rodape-esquerdo">
+            <img src="/imagens/18292989101670740228 1.svg" alt="icone logo" class="logo-rodape">
+            <p>Horários: de seg. a sex. das 7h ás 19h</p>
+            <p>Sábados: das 9h ás 17h</p>
+        </div>
+        <div class="rodape-centro">
+            <div>
+                <p>©</p>
+            </div>
+
+            <p>2023</p>
+        </div>
+        <div class="rodape-direito">
+            <p>CONTATO:</p>
+            <P>boinaeresort@gmail</P>
+            <p>Tel: (41) 9999-9999</p>
+        </div>
+    </footer>
+
+
+</main>
 </body>
 </html>

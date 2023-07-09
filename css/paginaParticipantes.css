@@ -155,6 +155,8 @@ h2 {
     margin: 100px 0 100px 0;
 }
 
+
+
 .rodape {
     font-family: 'Englebert', sans-serif;
     background-color: #FEE8B0;
@@ -185,4 +187,4 @@ h2 {
     flex-direction: column;
     margin-right: 30px;
     align-items: center;
-}
+} 
