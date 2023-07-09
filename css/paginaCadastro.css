@@ -59,8 +59,8 @@ body {
 }
 
 .btn-login:hover {
-    background-color:#9CA777;
-    color:#FEE8B0;
+    background-color: #9CA777;
+    color: #FEE8B0;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
@@ -71,6 +71,10 @@ body {
     text-align: center;
     margin: 80px 150px 40px 150px;
 
+}
+
+section {
+    margin-bottom: 50px;
 }
 
 form {
@@ -85,11 +89,12 @@ form {
     border-radius: 30px;
     background-color: #F97B22;
     margin-bottom: 50px;
+    margin: 0 auto;
 }
 
 input {
     border-radius: 5px;
-    border: solid #333  1px
+    border: solid #333 1px
 }
 
 .btnCadastrar {
@@ -103,7 +108,7 @@ input {
     background-color: #9CA777;
     align-items: center;
     cursor: pointer;
-    align-self:flex-start;
+    align-self: flex-start;
     color: #FEE8B0;
 }
 
