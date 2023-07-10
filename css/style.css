@@ -1,22 +1,29 @@
-main{
+main {
     background-color: #9CA777;
+    text-decoration: none;
 }
-.cabecalho{
+
+
+
+.cabecalho {
     font-family: 'Englebert', sans-serif;
     background-color: #FEE8B0;
     display: flex;
     align-items: center;
 }
-.logo{
+
+.logo {
     display: flex;
     width: 80px;
     padding: 6px;
 }
-.titulo-principal{
+
+.titulo-principal {
     font-family: 'Kablammo', cursive;
     display: inline;
 }
-.menu-lista{
+
+.menu-lista {
     display: flex;
     list-style: none;
     width: 60%;
@@ -24,22 +31,26 @@ main{
     height: 25px;
     margin-left: 5%;
 }
-.item-lista{
+
+.item-lista {
     display: flex;
     font-size: 25px;
 }
-.links{
+
+.links {
     text-decoration: none;
     color: #333;
 }
-.icone-login{
+
+.icone-login {
     height: 25px;
     margin-right: 5px;
-    
+
 }
-.btn-login{
+
+.btn-login {
     display: flex;
-    padding:5px;
+    padding: 5px;
     width: 95px;
     font-family: 'Englebert', sans-serif;
     font-size: 25px;
@@ -48,22 +59,25 @@ main{
     background-color: #F97B22;
     align-items: center;
     cursor: pointer;
+    text-decoration: none;
 }
+
 .btn-login:hover {
-    background-color:#9CA777;
-    color:#FEE8B0;
+    background-color: #9CA777;
+    color: #FEE8B0;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
+
 /* Bootstrap */
-.carousel-container{
+.carousel-container {
     margin-top: 2%;
     display: flex;
     justify-content: center;
     background-color: #9CA777;
 }
 
-#carouselExampleIndicators{
+#carouselExampleIndicators {
     box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
     display: flex;
     justify-content: center;
@@ -71,28 +85,31 @@ main{
 }
 
 /* Paragrafo */
-.container{
+.container {
     display: flex;
     justify-content: center;
     background-color: #9CA777;
     margin-top: 5%;
-    
+
 }
-.container-texto{
+
+.container-texto {
     display: flex;
     text-align: center;
     font-family: 'Englebert', sans-serif;
     width: 500px;
     font-size: 20px;
-    
+
 }
-.imagem-container{
+
+.imagem-container {
     display: flex;
     justify-content: center;
 }
-.img-pets{
+
+.img-pets {
     margin-bottom: -13px;
-    
+
 }
 
 /* rodapé */
@@ -128,4 +145,3 @@ main{
     margin-right: 30px;
     align-items: center;
 }
-
