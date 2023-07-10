@@ -65,7 +65,7 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-.tituloCadastro {
+.titulo-Cadastro {
     font-family: 'Englebert', sans-serif;
     border-bottom: solid;
     text-align: center;
@@ -97,7 +97,7 @@ input {
     border: solid #333 1px
 }
 
-.btnCadastrar {
+.btn-Cadastrar {
     padding: 5px;
     width: 120px;
     margin-left: 173px;
