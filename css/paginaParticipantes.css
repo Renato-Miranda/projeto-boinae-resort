@@ -72,9 +72,10 @@ body main {
     align-items: center;
     cursor: pointer;
 }
+
 .btn-login:hover {
-    background-color:#9CA777;
-    color:#FEE8B0;
+    background-color: #9CA777;
+    color: #FEE8B0;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
@@ -84,7 +85,8 @@ body main {
     flex-direction: column;
     align-items: center;
     margin-top: 150px;
-    font-size: 30pt;
+    /* font-size: 30pt; */
+    font-family: 'Englebert', sans-serif;
 }
 
 h2 {
@@ -194,8 +196,9 @@ h2 {
     flex-direction: column;
     margin-right: 30px;
     align-items: center;
-<<<<<<< HEAD
-} 
+    <<<<<<< HEAD
+}
+
 =======
 }
 
@@ -236,4 +239,5 @@ h2 {
         align-items: center;
     }
 }
->>>>>>> 9a315880eb1baef06aee3ed625d07b62246b6901
+
+>>>>>>>9a315880eb1baef06aee3ed625d07b62246b6901

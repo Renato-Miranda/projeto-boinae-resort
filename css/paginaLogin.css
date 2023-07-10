@@ -1,5 +1,6 @@
 body {
     background-color: #9CA777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecalho {
@@ -59,8 +60,8 @@ body {
 }
 
 .btn-login:hover {
-    background-color:#9CA777;
-    color:#FEE8B0;
+    background-color: #9CA777;
+    color: #FEE8B0;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
@@ -72,6 +73,7 @@ body {
     margin: 80px 150px 40px 150px;
 
 }
+
 .formLogin {
     border: 2px solid #F97b22;
     border-radius: 30px;
@@ -79,7 +81,7 @@ body {
     background-color: #F97B22;
     padding: 50px 50px 49px 50px;
     font-size: 18px;
-    font-family: 'Englebert', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     flex-wrap: wrap;
     display: flex;
     flex-direction: column;
@@ -97,10 +99,11 @@ body {
     background-color: #9CA777;
     align-items: center;
     cursor: pointer;
-    align-self:flex-start;
+    align-self: flex-start;
     margin: 15px 0px 25px 0px;
     color: #FEE8B0;
 }
+
 .submit:hover {
     background-color: #FEE8B0;
     color: #9CA777;
@@ -113,6 +116,7 @@ input {
     border: solid #000000 1px;
 
 }
+
 .rodape {
     font-family: 'Englebert', sans-serif;
     background-color: #FEE8B0;

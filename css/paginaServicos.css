@@ -1,5 +1,6 @@
 body {
     background-color: #9CA777;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .cabecalho {
@@ -44,9 +45,10 @@ body {
     margin-right: 5px;
 
 }
+
 .btn-login:hover {
-    background-color:#9CA777;
-    color:#FEE8B0;
+    background-color: #9CA777;
+    color: #FEE8B0;
     transform: scale(1.1);
     transition: all 0.3s ease-in-out;
 }
@@ -80,7 +82,7 @@ body {
     background-color: #F97B22;
     padding: 50px 100px 49px 100px;
     font-size: 18px;
-    font-family: 'Englebert', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -88,7 +90,7 @@ h2 {
     text-align: center;
     margin: 80px 150px 40px 150px;
     border-bottom: solid;
-    font-family: 'Englebert', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 
@@ -96,7 +98,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-family: 'Englebert', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 }
@@ -104,7 +106,7 @@ h2 {
 .plano1 {
     background-color: #F97B22;
     width: 340px;
-    height: 574px;
+    height: 700px;
     border-radius: 30px;
     text-align: center;
     line-height: 200%;
@@ -116,7 +118,7 @@ h2 {
 .plano2 {
     background-color: #F97B22;
     width: 340px;
-    height: 574px;
+    height: 700px;
     border-radius: 30px;
     text-align: center;
     line-height: 200%;
@@ -127,7 +129,7 @@ h2 {
 .plano3 {
     background-color: #F97B22;
     width: 340px;
-    height: 574px;
+    height: 700px;
     border-radius: 30px;
     text-align: center;
     line-height: 200%;
