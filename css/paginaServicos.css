@@ -59,7 +59,7 @@ body {
 }
 
 
-.tituloServico {
+.titulo-servico {
     font-family: 'Englebert', sans-serif;
     border-bottom: solid;
     text-align: center;
@@ -67,7 +67,7 @@ body {
 
 }
 
-.listaservico {
+.lista-servico {
     border: 2px solid #F97b22;
     border-radius: 30px;
     margin: 0px 150px 0px 150px;
