@@ -111,10 +111,15 @@ body {
     transition: all 0.3s ease-in-out;
 }
 
-input {
-    border-radius: 5px;
-    border: solid #000000 1px;
+.login-input {
+    width: 80%;
+    height: 25px;
+    text-align: center;
+}
 
+input {
+    border-radius: 2px;
+    border: solid #333 1px;
 }
 
 .rodape {
