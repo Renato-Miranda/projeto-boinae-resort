@@ -1,9 +1,11 @@
+/* --------------Reset CSS------------------------------------- */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ----------------------Estilização do Corpo-------------------------- */
 
 body {
     display: flex;
@@ -17,6 +19,7 @@ body main {
     flex: 1;
 }
 
+/* ----------------------Cabeçalho------------------------------------ */
 .cabecalho {
     font-family: 'Englebert', sans-serif;
     background-color: #FEE8B0;
@@ -94,6 +97,7 @@ h2 {
     margin: 0px 150px;
 }
 
+/* ---------------------------------Section Particiantes--------------------- */
 .fileira1 {
     display: flex;
     justify-content: space-evenly;
@@ -164,7 +168,7 @@ h2 {
     margin: 100px 0 100px 0;
 }
 
-
+/* ---------------------Rodapé------------------------------------------- */
 
 .rodape {
     font-family: 'Englebert', sans-serif;
@@ -196,11 +200,11 @@ h2 {
     flex-direction: column;
     margin-right: 30px;
     align-items: center;
-    <<<<<<< HEAD
+
 }
 
-=======
-}
+/* --------------------Media Query------------------------------------- */
+
 
 @media screen and (max-width: 1000px) {
     .cabecalho {
@@ -239,5 +243,3 @@ h2 {
         align-items: center;
     }
 }
-
->>>>>>>9a315880eb1baef06aee3ed625d07b62246b6901
