@@ -24,3 +24,4 @@ document.addEventListener("DOMContentLoaded", function () {
     let btnEnviar = document.getElementById('btn-enviar')
     btnEnviar.addEventListener("click", validarRecupSenha)
 })
+
