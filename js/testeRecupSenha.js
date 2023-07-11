@@ -15,7 +15,7 @@ function validarRecupSenha() {
 
     alert('Um e-mail de recuperação de senha foi enviado')
 
-    window.location.href = 'http://127.0.0.1:5500/html/paginaLogin.html'
+    window.location.href = '../html/paginaLogin.html'
 
     return true
 }
