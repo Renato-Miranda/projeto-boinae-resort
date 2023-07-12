@@ -50,8 +50,6 @@ function validarSenha() {
         return;
     }
 
-    alert("Senha valida!");
-
     window.location.href = '../index.html'
 
 }
