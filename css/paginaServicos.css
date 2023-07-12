@@ -1,8 +1,11 @@
+/* ------------------------------Estilização do corpo ------------ */
+
 body {
     background-color: #9CA777;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* ------------------------------cabeçalho--------------------------- */
 .cabecalho {
     font-family: 'Englebert', sans-serif;
     background-color: #FEE8B0;
@@ -66,6 +69,7 @@ body {
     cursor: pointer;
 }
 
+/* ----------------------------Section Serviços------------------------------ */
 
 .titulo-servico {
     font-family: 'Englebert', sans-serif;
@@ -93,6 +97,8 @@ h2 {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+/* -----------------------------Section Planos ------------------------- */
 
 .planos {
     display: flex;
@@ -142,6 +148,8 @@ h3 {
     margin-top: 20px;
 }
 
+/* ---------------------------rodapé-------------------------------------- */
+
 .rodape {
     font-family: 'Englebert', sans-serif;
     background-color: #FEE8B0;
@@ -173,6 +181,8 @@ h3 {
     margin-right: 30px;
     align-items: center;
 }
+
+/* ---------------------Media Query ----------------------------- */
 
 @media screen and (max-width: 1120px) {
     .cabecalho {
