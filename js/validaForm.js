@@ -86,7 +86,7 @@ function validarRG(rg) {
     }
 }
 
-    function validarFormulario() {
+function validarFormulario() {
     const campoNome = document.getElementById("nome").value;
     validarNome(campoNome);
 
