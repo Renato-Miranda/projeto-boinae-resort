@@ -42,15 +42,14 @@ function validarEmail(email) {
         }
         return;
 }}
-
-    alert("Email inválido!");
     return;
+    
 }
 
 function validarSenha() {
     const senha = document.getElementById("senha").value;
 
-    if (senha.length !== 8) {
+    if (senha.length < 8) {
         alert("Senha inválida. A senha deve ter 8 caracteres alfanuméricos.");
         return;
 }
@@ -86,7 +85,7 @@ function validarRG(rg) {
     }
 }
 
-    function validarFormulario() {
+function validarFormulario() {
     const campoNome = document.getElementById("nome").value;
     validarNome(campoNome);
 
