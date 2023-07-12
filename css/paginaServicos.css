@@ -97,7 +97,12 @@ body {
     
 
 }
-
+.lista-servico:hover{
+    background-color: #495f15;
+    color: #FEE8B0;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
 h2 {
     text-align: center;
     margin: 80px 150px 40px 150px;
@@ -107,7 +112,9 @@ h2 {
 }
 
 /* -----------------------------Section Planos ------------------------- */
+ul{
 
+}
 .planos {
     display: flex;
     flex-direction: row;
@@ -152,6 +159,12 @@ h2 {
     padding: 0px 10px 0px 25px;
     margin-right: 50px;
     margin-bottom: 50px;
+}
+.plano1:hover, .plano2:hover, .plano3:hover{
+    background-color: #FEE8B0;
+    color: #F97B22;
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
 }
 
 h3 {
