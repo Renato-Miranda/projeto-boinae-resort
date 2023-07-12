@@ -42,7 +42,8 @@ function validarEmail(email) {
         }
         return;
 }}
-    return;
+
+    
     
 }
 
@@ -79,7 +80,7 @@ function validarRG(rg) {
         if (charCode >= 48 && charCode <= 57) {
         rgNumerico += rg.charAt(i);
 }}
-    if (rgNumerico.length !== 9){
+    if (rgNumerico.length < 8){
         alert("RG inválido!");
         return;
     }
@@ -97,6 +98,8 @@ function validarFormulario() {
 
     const rgValida = document.getElementById("rg").value;
     validarRG(rgValida)
+
+    alert('Seu cadastrado foi realizado com sucesso. Em breve, um de nossos representantes entrará em contato!')
 }
 
 const botaoValida = document.getElementById("btn-valida")
