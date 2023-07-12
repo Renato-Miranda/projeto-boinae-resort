@@ -18,78 +18,13 @@ body main {
     flex: 1;
 }
 
-/* --------------------------Cabeçalho----------------------------------------- */
-.cabecalho {
-    font-family: 'Englebert', sans-serif;
-    background-color: #FEE8B0;
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    display: flex;
-    width: 80px;
-    padding: 6px;
-}
-
-.titulo-principal {
-    font-family: 'Kablammo', cursive;
-    display: inline;
-}
-
-.menu-lista {
-    display: flex;
-    list-style: none;
-    width: 60%;
-    justify-content: space-evenly;
-    height: 25px;
-    margin-left: 5%;
-}
-
-.item-lista {
-    display: flex;
-    font-size: 25px;
-}
-
-.links {
-    text-decoration: none;
-    color: #333;
-}
-
-.icone-login {
-    height: 25px;
-    margin-right: 5px;
-
-}
-
-.btn-login {
-    display: flex;
-    padding: 5px;
-    width: 95px;
-    font-family: 'Englebert', sans-serif;
-    font-size: 25px;
-    border: solid #333 2px;
-    border-radius: 5px;
-    background-color: #F97B22;
-    align-items: center;
-    cursor: pointer;
-}
-
-.btn-login:hover {
-    background-color: #9CA777;
-    color: #FEE8B0;
-    transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
-}
-
 /* ---------------------------Section Formulário--------------------------------- */
 .titulo-senha {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
-    margin-bottom: 50px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     /* font-size: 30pt; */
     font-family: 'Englebert', sans-serif;
 }
@@ -100,18 +35,21 @@ h2 {
 }
 
 .texto-senha {
-    font-size: 20pt;
+    margin-top: 15px;
+    font-size: 15pt;
+    color: #FEE8B0;
 }
 
 .conteiner {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 100px;
+    text-align: center;
+    gap: 50px;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
-
-
-
 
 form {
     display: flex;
@@ -133,48 +71,24 @@ form {
     background: #F97B22;
     color: #FFF;
     font-size: 15px;
-    font-family: Englebert;
+    font-family: 'Englebert', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
+/* ----------------------------Estilização da Foto--------------------------------- */
+
+.conteiner-foto {
+    display: flex;
+    justify-content: center;
+}
+
 .foto-gato {
-    margin-bottom: 50px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
-/* ----------------------------------Rodapé--------------------------------- */
-.rodape {
-    font-family: 'Englebert', sans-serif;
-    background-color: #FEE8B0;
-    display: flex;
-    justify-content: space-between;
-
-}
-
-.rodape-esquerdo {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-
-}
-
-.logo-rodape {
-    width: 80px;
-    padding: 6px;
-}
-
-.rodape-centro {
-    display: flex;
-    align-items: center;
-}
-
-.rodape-direito {
-    display: flex;
-    flex-direction: column;
-    margin-right: 30px;
-    align-items: center;
-}
 
 /* ----------------------------Media Query------------------------------------ */
 @media screen and (max-width: 1000px) {
