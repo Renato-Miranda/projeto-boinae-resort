@@ -43,14 +43,14 @@ function validarEmail(email) {
         return;
 }}
 
-    alert("Email inválido!");
-    return;
+    
+    
 }
 
 function validarSenha() {
     const senha = document.getElementById("senha").value;
 
-    if (senha.length !== 8) {
+    if (senha.length < 8) {
         alert("Senha inválida. A senha deve ter 8 caracteres alfanuméricos.");
         return;
 }
@@ -80,7 +80,7 @@ function validarRG(rg) {
         if (charCode >= 48 && charCode <= 57) {
         rgNumerico += rg.charAt(i);
 }}
-    if (rgNumerico.length !== 9){
+    if (rgNumerico.length < 8){
         alert("RG inválido!");
         return;
     }
@@ -98,6 +98,8 @@ function validarRG(rg) {
 
     const rgValida = document.getElementById("rg").value;
     validarRG(rgValida)
+
+    alert('Seu cadastrado foi realizado com sucesso. Em breve, um de nossos representantes entrará em contato!')
 }
 
 const botaoValida = document.getElementById("btn-valida")
