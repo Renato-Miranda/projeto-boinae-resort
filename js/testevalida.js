@@ -73,17 +73,17 @@ function validarSenha() {
 }
 
 function validarRG(rg) {
-    let rgNumerico = '';
-    for (let i = 0; i < rg.length; i++) {
+    const rgNumerico = document.getElementById("rg").value;
+    
+    for (let i = 0; i < rg.lenght; i++) {
         const charCode = rg.charCodeAt(i);
         if (charCode >= 48 && charCode <= 57) {
         rgNumerico += rg.charAt(i);
 }}
-    if (rgNumerico.length !== 9) {
-        return false;
+    if (rgNumerico.length !== 9){
+        alert("RG inválido!");
+        return;
     }
-
-    return true;
 }
 
     function validarFormulario() {
@@ -96,7 +96,7 @@ function validarRG(rg) {
     const senha = document.getElementById("senha").value;
     validarSenha(senha)
 
-    const rgValida = document.getElementById("rg").rg;
+    const rgValida = document.getElementById("rg").value;
     validarRG(rgValida)
 }
 
